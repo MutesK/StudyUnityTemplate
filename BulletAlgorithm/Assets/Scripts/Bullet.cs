@@ -4,20 +4,38 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private Vector2 BulletPos;
-    private Vector2 SpeedVector;
+    private float Angle;    // 회전각
+    private float Speed;     // 탄속
 
+    private float SpeedRate;
+    private float AngleRate;
+
+
+    public void InitBullet(float Angle, float Speed, float AngleRate, float SpeedRate)
+    {
+        this.Angle = Angle;
+        this.Speed = Speed;
+        this.AngleRate = AngleRate;
+        this.SpeedRate = SpeedRate;
+    }
+
+   
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(SpeedVector * Time.deltaTime);
+        Vector3 Position = gameObject.transform.position;
+
+        float radian = Angle * Mathf.PI * 2;
+
+        Position.x += Speed * Mathf.Cos(radian);
+        Position.y += Speed * Mathf.Sin(radian);
+
+        Angle += AngleRate;
+        Speed += SpeedRate;
+
+        gameObject.transform.position = Position;
     }
 
-    public void InitBullet(Vector2 Pos, Vector2 Speed)
-    {
-        BulletPos = Pos;
-        SpeedVector = Speed;
-    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,4 +44,8 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
+
+
 }

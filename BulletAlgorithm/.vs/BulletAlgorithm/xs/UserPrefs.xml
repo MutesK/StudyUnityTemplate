@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{592515A7-6DFD-B8D6-CEEA-31D0B8A9367F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/IntervalMultipleSpiralShooter.cs">
+    <Files>
+      <File FileName="Assets/Scripts/DirectionalShoot.cs" Line="21" Column="10" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="27" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/SpiralShooter.cs" Line="32" Column="48" NotebookId="1" />
+      <File FileName="Assets/Scripts/MultipleSpiralShooter.cs" Line="25" Column="48" NotebookId="1" />
+      <File FileName="Assets/Scripts/BiDirectionalSpiralShooter.cs" Line="33" Column="49" NotebookId="1" />
+      <File FileName="Assets/Scripts/IntervalMultipleSpiralShooter.cs" Line="39" Column="69" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BulletAlgorithm" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="IntervalMultipleSpiralShooter.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6f75f154-0ee7-41f5-92d4-a23e5dd1b332" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
