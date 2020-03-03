@@ -11,9 +11,9 @@ public class BiDirectionalSpiralShooter : MonoBehaviour
         public float ShotAngleRate;
     }
 
+    public ObjectPool BulletPool;
     public AngleInfo[] AngleInfos = new AngleInfo[2];
 
-    public GameObject BulletPrefab;
     public float ShotSpeed;
     public int ShotCount;
     public int Interval;
@@ -42,9 +42,10 @@ public class BiDirectionalSpiralShooter : MonoBehaviour
             {
                 for (int BulletIndex = 0; BulletIndex < ShotCount; ++BulletIndex)
                 {
-                    GameObject newBullet = Instantiate(BulletPrefab,
-                        new Vector3(transform.position.x, transform.position.y, 0), new Quaternion(0, 0, 0, 0)) as GameObject;
-                    newBullet.GetComponent<Bullet>().InitBullet(AngleInfos[AngleCount].ShotAngle + (float)BulletIndex / ShotCount, ShotSpeed, 0, 0);
+                    GameObject newBullet = BulletPool.GetObject();
+                    newBullet.transform.position = gameObject.transform.position;
+                    newBullet.SetActive(true);
+                    newBullet.GetComponent<Bullet>().InitBullet(BulletPool, AngleInfos[AngleCount].ShotAngle + (float)BulletIndex / ShotCount, ShotSpeed, 0, 0);
 
                 }
 

@@ -63,11 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BentSpiralShooter.cs" />
     <Compile Include="Assets\Scripts\BiDirectionalSpiralShooter.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\DirectionalShoot.cs" />
     <Compile Include="Assets\Scripts\IntervalMultipleSpiralShooter.cs" />
     <Compile Include="Assets\Scripts\MultipleSpiralShooter.cs" />
+    <Compile Include="Assets\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SpiralShooter.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

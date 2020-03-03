@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpiralShooter : MonoBehaviour
 {
-    public GameObject BulletPrefab;
+    public ObjectPool BulletPool;
 
     public float ShotAngle;
     public float ShotSpeed;
@@ -22,9 +22,11 @@ public class SpiralShooter : MonoBehaviour
 
         while(true)
         {
-            GameObject newBullet = Instantiate(BulletPrefab,
-            new Vector3(transform.position.x, transform.position.y, 0), new Quaternion(0, 0, 0, 0)) as GameObject;
-            newBullet.GetComponent<Bullet>().InitBullet(angle, ShotSpeed, 0, 0);
+            GameObject newBullet = BulletPool.GetObject();
+            newBullet.transform.position = gameObject.transform.position;
+            newBullet.SetActive(true);
+
+            newBullet.GetComponent<Bullet>().InitBullet(BulletPool, angle, ShotSpeed, 0, 0);
 
             angle += AngleRate;
             angle -= Mathf.Floor(angle);

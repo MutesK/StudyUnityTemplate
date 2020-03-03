@@ -9,14 +9,17 @@ public class Bullet : MonoBehaviour
 
     private float SpeedRate;
     private float AngleRate;
+    private ObjectPool BulletPool;
 
 
-    public void InitBullet(float Angle, float Speed, float AngleRate, float SpeedRate)
+    public void InitBullet(ObjectPool BulletPool, float Angle, float Speed, float AngleRate, float SpeedRate)
     {
         this.Angle = Angle;
         this.Speed = Speed;
         this.AngleRate = AngleRate;
         this.SpeedRate = SpeedRate;
+
+        this.BulletPool = BulletPool;
     }
 
    
@@ -41,11 +44,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.tag == "Overlap")  // if you using Object pooling, Just Refund it.
         {
-            Destroy(gameObject);
+            BulletPool.SetObject(gameObject);
         }
     }
-
-
-
-
 }

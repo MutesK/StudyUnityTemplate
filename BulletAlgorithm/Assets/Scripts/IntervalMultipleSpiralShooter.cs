@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IntervalMultipleSpiralShooter : MonoBehaviour
 {
-    public GameObject BulletPrefab;
+    public ObjectPool BulletPool;
     public float ShotAngle;
     public float ShotAngleRate;
     public float ShotSpeed;
@@ -35,9 +35,10 @@ public class IntervalMultipleSpiralShooter : MonoBehaviour
         {
             for (int bulletIndex = 0; bulletIndex < ShotCount; ++bulletIndex)
             {
-                GameObject newBullet = Instantiate(BulletPrefab,
-                new Vector3(transform.position.x, transform.position.y, 0), new Quaternion(0, 0, 0, 0)) as GameObject;
-                newBullet.GetComponent<Bullet>().InitBullet(ShotAngle + (float)bulletIndex / ShotCount, ShotSpeed, 0, 0);
+                GameObject newBullet = BulletPool.GetObject();
+                newBullet.transform.position = gameObject.transform.position;
+                newBullet.SetActive(true);
+                newBullet.GetComponent<Bullet>().InitBullet(BulletPool, ShotAngle + (float)bulletIndex / ShotCount, ShotSpeed, 0, 0);
             }
 
             ShotAngle += ShotAngleRate;
