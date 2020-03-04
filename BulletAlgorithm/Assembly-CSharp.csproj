@@ -68,42 +68,43 @@
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\DirectionalShoot.cs" />
     <Compile Include="Assets\Scripts\IntervalMultipleSpiralShooter.cs" />
+    <Compile Include="Assets\Scripts\LogicEffect\HitEffect.cs" />
     <Compile Include="Assets\Scripts\MultipleSpiralShooter.cs" />
     <Compile Include="Assets\Scripts\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SpiralShooter.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/junminkim/Workspace/Unity/Template/BulletAlgorithm/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

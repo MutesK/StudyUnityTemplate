@@ -1,44 +1,39 @@
 ﻿<Properties StartupConfiguration="{592515A7-6DFD-B8D6-CEEA-31D0B8A9367F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bullet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LogicEffect/HitEffect.cs">
     <Files>
-      <File FileName="Assets/Scripts/ObjectPool.cs" Line="25" Column="33" NotebookId="1" />
-      <File FileName="Assets/Scripts/IntervalMultipleSpiralShooter.cs" Line="33" Column="6" NotebookId="1" />
-      <File FileName="Assets/Scripts/BiDirectionalSpiralShooter.cs" Line="16" Column="1" NotebookId="2" />
-      <File FileName="Assets/Scripts/DirectionalShoot.cs" Line="6" Column="2" NotebookId="2" />
-      <File FileName="Assets/Scripts/MultipleSpiralShooter.cs" Line="36" Column="69" NotebookId="2" />
-      <File FileName="Assets/Scripts/SpiralShooter.cs" Line="7" Column="1" NotebookId="2" />
+      <File FileName="Assets/Scripts/ObjectPool.cs" Line="25" Column="33" />
+      <File FileName="Assets/Scripts/IntervalMultipleSpiralShooter.cs" />
+      <File FileName="Assets/Scripts/BiDirectionalSpiralShooter.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="46" Column="31" />
+      <File FileName="Assets/Scripts/DirectionalShoot.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/MultipleSpiralShooter.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/SpiralShooter.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="28" Column="2" NotebookId="1" />
+      <File FileName="Assets/Scripts/LogicEffect/HitEffect.cs" Line="45" Column="30" NotebookId="1" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="483" Y="23" Width="1309" Height="1075">
-        <Files>
-          <File FileName="Assets/Scripts/PlayerController.cs" Line="26" Column="9" />
-          <File FileName="Assets/Scripts/BentSpiralShooter.cs" Line="11" Column="40" />
-          <File FileName="Assets/Scripts/Bullet.cs" Line="15" Column="109" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BulletAlgorithm" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Bullet.cs" selected="True" />
+                <Node name="LogicEffect" expanded="True">
+                  <Node name="HitEffect.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0d64e739-db47-494d-ae80-2b167405f5f4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae4b5f44-1cd6-44d3-9d6b-d6b2eb6e8adf" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/junminkim/Workspace/Unity/UnityTemplate/BulletAlgorithm/Assets/Scripts/PlayerController.cs" relfile="Assets/Scripts/PlayerController.cs" line="46" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
