@@ -4,13 +4,13 @@
  
 # =============== #
  
-Temp/
+BulletAlgorithm/Temp/
  
-Obj/
+BulletAlgorithm/Obj/
  
-UnityGenerated/
+BulletAlgorithm/UnityGenerated/
  
-Library/
+BulletAlgorithm/Library/
  
  
  
@@ -20,7 +20,7 @@ Library/
  
 # ===================================== #
  
-ExportedObj/
+BulletAlgorithm/ExportedObj/
  
 *.svd
  
