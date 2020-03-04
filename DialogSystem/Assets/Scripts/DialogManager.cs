@@ -34,7 +34,7 @@ public class DialogManager : MonoBehaviour
             Sentences.Enqueue(sentence);
         }
 
-        DisplayNextSentence();
+        Invoke("DisplayNextSentence", .3f);
     }
 
     public void DisplayNextSentence()
