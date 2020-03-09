@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{7FBB60F8-B41E-5117-8586-E2D1FAADA889}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Addons/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs">
+    <Files>
+      <File FileName="Assets/Addons/Tilemap/Tiles/Rule Tile/Scripts/RuleTile.cs" Line="14" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ce66a04d-fe7c-499b-b6bb-da60ee291d66" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
