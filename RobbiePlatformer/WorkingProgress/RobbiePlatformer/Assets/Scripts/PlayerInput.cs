@@ -24,7 +24,11 @@ public class PlayerInput : MonoBehaviour
             return;
 
         horizontal = 0;
-        jumpHeld = jumpPressed = crouchHeld = crouchPressed = false;
+        jumpPressed = false;
+        jumpHeld = false;
+        crouchPressed = false;
+        crouchHeld = false;
+
         readyToClear = false;
     }
 

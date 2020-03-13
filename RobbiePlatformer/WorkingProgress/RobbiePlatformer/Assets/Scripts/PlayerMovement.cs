@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
     float playerHeight;
 
     float originalXScale;
-    int direction;
+    int direction = 1;
 
     Vector2 colliderStandSize;    // 서 있을때 콜라이더 크기
     Vector2 colliderStandOffset;  // 서 있을때 콜라이더 오프셋
@@ -82,7 +82,8 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D ledgeCheck = Raycast(new Vector2(reachOffset * direction, playerHeight), Vector2.down, grabDistance);  
         RaycastHit2D wallCheck = Raycast(new Vector2(footOffset * direction, eyeHeight), grabDir, grabDistance);  
 
-        if(!isOnGround && !isHanging && rigidBody.velocity.y < 0f && ledgeCheck && wallCheck && !blockedCheck)
+        if(!isOnGround && !isHanging && rigidBody.velocity.y < 0f && 
+            ledgeCheck && wallCheck && !blockedCheck)
         {
             Vector3 pos = transform.position;
 
@@ -244,11 +245,11 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(pos + offset, rayDirection, length, mask);
         
 
-        //if (drawDebugRaycasts)
+        if (drawDebugRaycasts)
         {
             Color color = hit ? Color.red : Color.green;
 
-            Debug.DrawRay(pos + offset, rayDirection * direction, color);
+            Debug.DrawRay(pos + offset, rayDirection * length, color);
         }
 
         return hit;
